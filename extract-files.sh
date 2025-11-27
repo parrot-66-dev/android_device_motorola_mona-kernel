@@ -13,7 +13,7 @@ MY_DIR="${BASH_SOURCE%/*}"
 SRC_ROOT="${MY_DIR}/../../.."
 TMP_DIR=$(mktemp -d)
 EXTRACT_KERNEL=true
-declare -a MODULE_FOLDERS=("vendor_ramdisk" "vendor_dlkm")
+declare -a MODULE_FOLDERS=("vendor_ramdisk" "vendor_dlkm" "system_dlkm")
 
 while [ "${#}" -gt 0 ]; do
     case "${1}" in
@@ -70,6 +70,7 @@ find "${TMP_DIR}/dtbs" -type f -name "*.dtb" \
     -exec printf "  - dtbs/" \; \
     -exec basename {} \;
 cp -f "${DUMP}/dtbo.img" "${MY_DIR}/dtbs/dtbo.img"
+cp -f "${DUMP}/dtbo.img" "${MY_DIR}/dtbo.img"
 echo "  - dtbs/dtbo.img"
 
 ### Modules
