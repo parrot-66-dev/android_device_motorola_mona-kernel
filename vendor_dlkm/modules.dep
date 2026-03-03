@@ -9,7 +9,6 @@
 /system/lib/modules/nhc_ipv6.ko: /system/lib/modules/6lowpan.ko
 /vendor/lib/modules/gic_intr_routing.ko:
 /system/lib/modules/ppp_deflate.ko: /system/lib/modules/ppp_generic.ko /system/lib/modules/slhc.ko
-/vendor/lib/modules/qpnp-power-on.ko:
 /vendor/lib/modules/smp2p_sleepstate.ko:
 /vendor/lib/modules/touchscreen_mmi.ko: /vendor/lib/modules/mmi_relay.ko /vendor/lib/modules/sensors_class.ko /vendor/lib/modules/panel_event_notifier.ko
 /vendor/lib/modules/mhi_dev_uci.ko: /vendor/lib/modules/mhi_dev_dtr.ko /vendor/lib/modules/mhi.ko /vendor/lib/modules/pci-msm-drv.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
@@ -138,6 +137,7 @@
 /vendor/lib/modules/usb_f_ccid.ko:
 /system/lib/modules/regmap-kunit.ko: /system/lib/modules/regmap-raw-ram.ko /system/lib/modules/regmap-ram.ko /system/lib/modules/kunit.ko
 /vendor/lib/modules/rproc_qcom_common.ko: /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
+/vendor/lib/modules/schgm-flash.ko:
 /vendor/lib/modules/stub_dlkm.ko:
 /vendor/lib/modules/mmi_annotate.ko:
 /vendor/lib/modules/rmnet_ctl.ko: /vendor/lib/modules/ipam.ko /vendor/lib/modules/usb_f_gsi.ko /vendor/lib/modules/rmnet_mem.ko /vendor/lib/modules/gsim.ko /vendor/lib/modules/qcom_va_minidump.ko /vendor/lib/modules/qcom_ramdump.ko /vendor/lib/modules/dwc3-msm.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko /vendor/lib/modules/qmi_helpers.ko
@@ -216,7 +216,6 @@
 /system/lib/modules/tipc.ko:
 /system/lib/modules/ieee802154.ko:
 /vendor/lib/modules/rmnet_wlan.ko: /vendor/lib/modules/rmnet_core.ko /vendor/lib/modules/rmnet_ctl.ko /vendor/lib/modules/ipam.ko /vendor/lib/modules/usb_f_gsi.ko /vendor/lib/modules/rmnet_mem.ko /vendor/lib/modules/gsim.ko /vendor/lib/modules/qcom_va_minidump.ko /vendor/lib/modules/qcom_ramdump.ko /vendor/lib/modules/dwc3-msm.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko /vendor/lib/modules/qmi_helpers.ko
-/vendor/lib/modules/moto_kern_prot.ko:
 /system/lib/modules/zsmalloc.ko:
 /vendor/lib/modules/aw882xx_dlkm.ko:
 /vendor/lib/modules/lpass_cdc_dlkm.ko: /vendor/lib/modules/spf_core_dlkm.ko /vendor/lib/modules/gpr_dlkm.ko /vendor/lib/modules/snd_event_dlkm.ko /vendor/lib/modules/q6_notifier_dlkm.ko /vendor/lib/modules/q6_pdr_dlkm.ko /vendor/lib/modules/pdr_interface.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko /vendor/lib/modules/qmi_helpers.ko

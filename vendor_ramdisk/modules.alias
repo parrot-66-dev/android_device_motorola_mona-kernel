@@ -185,6 +185,12 @@ alias of:N*T*Cqcom,sdm845-slpi-pas qcom_q6v5_pas
 alias of:N*T*Cqcom,sdm845-slpi-pasC* qcom_q6v5_pas
 alias of:N*T*Cqcom,sdx55-mpss-pas qcom_q6v5_pas
 alias of:N*T*Cqcom,sdx55-mpss-pasC* qcom_q6v5_pas
+alias of:N*T*Cqcom,sm6150-adsp-pas qcom_q6v5_pas
+alias of:N*T*Cqcom,sm6150-adsp-pasC* qcom_q6v5_pas
+alias of:N*T*Cqcom,sm6150-cdsp-pas qcom_q6v5_pas
+alias of:N*T*Cqcom,sm6150-cdsp-pasC* qcom_q6v5_pas
+alias of:N*T*Cqcom,sm6150-modem-pas qcom_q6v5_pas
+alias of:N*T*Cqcom,sm6150-modem-pasC* qcom_q6v5_pas
 alias of:N*T*Cqcom,sdxpinn-modem-pas qcom_q6v5_pas
 alias of:N*T*Cqcom,sdxpinn-modem-pasC* qcom_q6v5_pas
 alias of:N*T*Cqcom,sm6115-adsp-pas qcom_q6v5_pas
@@ -365,12 +371,16 @@ alias amba:d???BB9EC coresight_replicator
 alias of:N*T*Cqcom,sm4450-dispcc dispcc_sm4450
 alias of:N*T*Cqcom,sm4450-dispccC* dispcc_sm4450
 alias usbfunc:ccid usb_f_ccid
+alias of:N*T*Cqcom,schgm-flash schgm_flash
+alias of:N*T*Cqcom,schgm-flashC* schgm_flash
 alias of:N*T*Cqcom,ravelin-tlmm pinctrl_ravelin
 alias of:N*T*Cqcom,ravelin-tlmmC* pinctrl_ravelin
 alias of:N*T*Cqcom,ravelin-vm-tlmm pinctrl_ravelin
 alias of:N*T*Cqcom,ravelin-vm-tlmmC* pinctrl_ravelin
 alias of:N*T*Cqcom,bcl-v5 bcl_pmic5
 alias of:N*T*Cqcom,bcl-v5C* bcl_pmic5
+alias of:N*T*Cqcom,pm6150l-bcl-v5 bcl_pmic5
+alias of:N*T*Cqcom,pm6150l-bcl-v5C* bcl_pmic5
 alias of:N*T*Cqcom,pmiv010x-bcl-v5 bcl_pmic5
 alias of:N*T*Cqcom,pmiv010x-bcl-v5C* bcl_pmic5
 alias of:N*T*Cqcom,pm8550-bcl-v5 bcl_pmic5
@@ -609,6 +619,8 @@ alias of:N*T*Cqcom,kera-qfprom nvmem_qfprom
 alias of:N*T*Cqcom,kera-qfpromC* nvmem_qfprom
 alias of:N*T*Cqcom,ravelin-qfprom nvmem_qfprom
 alias of:N*T*Cqcom,ravelin-qfpromC* nvmem_qfprom
+alias of:N*T*Cqcom,parrot-qfprom nvmem_qfprom
+alias of:N*T*Cqcom,parrot-qfpromC* nvmem_qfprom
 alias of:N*T*Cqcom,msm-hdcp msm_drm
 alias of:N*T*Cqcom,msm-hdcpC* msm_drm
 alias of:N*T*Cqcom,mdp4 msm_drm
@@ -668,6 +680,8 @@ alias of:N*T*Cqcom,sdxbaagha-rpmh-clk clk_rpmh
 alias of:N*T*Cqcom,sdxbaagha-rpmh-clkC* clk_rpmh
 alias of:N*T*Cqcom,sm4450-rpmh-clk clk_rpmh
 alias of:N*T*Cqcom,sm4450-rpmh-clkC* clk_rpmh
+alias of:N*T*Cqcom,sm6150-rpmh-clk clk_rpmh
+alias of:N*T*Cqcom,sm6150-rpmh-clkC* clk_rpmh
 alias of:N*T*Cqcom,sm6350-rpmh-clk clk_rpmh
 alias of:N*T*Cqcom,sm6350-rpmh-clkC* clk_rpmh
 alias of:N*T*Cqcom,sm8150-rpmh-clk clk_rpmh

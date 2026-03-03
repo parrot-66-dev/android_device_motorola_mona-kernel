@@ -19,7 +19,7 @@
 /lib/modules/cpu_hotplug.ko:
 /lib/modules/qcom_aoss.ko: /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/qcom_dma_heaps.ko /lib/modules/msm_dma_iommu_mapping.ko /lib/modules/mem_buf_dev.ko /lib/modules/secure_buffer.ko /lib/modules/qcom-scm.ko /lib/modules/gh_rm_drv.ko /lib/modules/gh_msgq.ko /lib/modules/gh_dbl.ko /lib/modules/gh_arm_drv.ko /lib/modules/smem.ko /lib/modules/debug_symbol.ko
 /lib/modules/lvstest.ko:
-/lib/modules/qcom-reboot-reason.ko:
+/lib/modules/qcom-reboot-reason.ko: /lib/modules/qpnp-power-on.ko
 /lib/modules/coresight.ko:
 /lib/modules/qti_thermal_vendor_hooks.ko:
 /lib/modules/qcom_tsens.ko: /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/qcom_dma_heaps.ko /lib/modules/msm_dma_iommu_mapping.ko /lib/modules/mem_buf_dev.ko /lib/modules/secure_buffer.ko /lib/modules/qcom-scm.ko /lib/modules/gh_rm_drv.ko /lib/modules/gh_msgq.ko /lib/modules/gh_dbl.ko /lib/modules/gh_arm_drv.ko /lib/modules/smem.ko /lib/modules/debug_symbol.ko
@@ -100,6 +100,7 @@
 /lib/modules/qti-regmap-debugfs.ko:
 /lib/modules/gh_msgq.ko:
 /lib/modules/rproc_qcom_common.ko: /lib/modules/qcom_smd.ko /lib/modules/qcom_glink_smem.ko /lib/modules/qcom_glink.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/qcom_dma_heaps.ko /lib/modules/msm_dma_iommu_mapping.ko /lib/modules/mem_buf_dev.ko /lib/modules/secure_buffer.ko /lib/modules/qcom-scm.ko /lib/modules/gh_rm_drv.ko /lib/modules/gh_msgq.ko /lib/modules/gh_dbl.ko /lib/modules/gh_arm_drv.ko /lib/modules/smem.ko /lib/modules/debug_symbol.ko
+/lib/modules/schgm-flash.ko:
 /lib/modules/qcom_logbuf_boot_log.ko: /lib/modules/minidump.ko /lib/modules/qcom_dma_heaps.ko /lib/modules/msm_dma_iommu_mapping.ko /lib/modules/mem_buf_dev.ko /lib/modules/secure_buffer.ko /lib/modules/qcom-scm.ko /lib/modules/gh_rm_drv.ko /lib/modules/gh_msgq.ko /lib/modules/gh_dbl.ko /lib/modules/gh_arm_drv.ko /lib/modules/smem.ko /lib/modules/debug_symbol.ko
 /lib/modules/mem_buf.ko: /lib/modules/mem_buf_msgq.ko /lib/modules/mem_buf_dev.ko /lib/modules/secure_buffer.ko /lib/modules/qcom-scm.ko /lib/modules/gh_rm_drv.ko /lib/modules/gh_msgq.ko /lib/modules/gh_dbl.ko /lib/modules/gh_arm_drv.ko
 /lib/modules/pinctrl-ravelin.ko: /lib/modules/pinctrl-msm.ko /lib/modules/qcom-scm.ko /lib/modules/gh_rm_drv.ko /lib/modules/gh_msgq.ko /lib/modules/gh_dbl.ko /lib/modules/gh_arm_drv.ko

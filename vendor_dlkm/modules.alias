@@ -1022,6 +1022,12 @@ alias of:N*T*Cqcom,sdm845-slpi-pas qcom_q6v5_pas
 alias of:N*T*Cqcom,sdm845-slpi-pasC* qcom_q6v5_pas
 alias of:N*T*Cqcom,sdx55-mpss-pas qcom_q6v5_pas
 alias of:N*T*Cqcom,sdx55-mpss-pasC* qcom_q6v5_pas
+alias of:N*T*Cqcom,sm6150-adsp-pas qcom_q6v5_pas
+alias of:N*T*Cqcom,sm6150-adsp-pasC* qcom_q6v5_pas
+alias of:N*T*Cqcom,sm6150-cdsp-pas qcom_q6v5_pas
+alias of:N*T*Cqcom,sm6150-cdsp-pasC* qcom_q6v5_pas
+alias of:N*T*Cqcom,sm6150-modem-pas qcom_q6v5_pas
+alias of:N*T*Cqcom,sm6150-modem-pasC* qcom_q6v5_pas
 alias of:N*T*Cqcom,sdxpinn-modem-pas qcom_q6v5_pas
 alias of:N*T*Cqcom,sdxpinn-modem-pasC* qcom_q6v5_pas
 alias of:N*T*Cqcom,sm6115-adsp-pas qcom_q6v5_pas
@@ -1405,6 +1411,8 @@ alias of:N*T*Cst,st21nfc stm_nfc_i2c
 alias of:N*T*Cst,st21nfcC* stm_nfc_i2c
 alias i2c:sx937x_multi sx937x_multi
 alias usbfunc:ccid usb_f_ccid
+alias of:N*T*Cqcom,schgm-flash schgm_flash
+alias of:N*T*Cqcom,schgm-flashC* schgm_flash
 alias of:N*T*Carm,cryptocell-713-trng cctrng
 alias of:N*T*Carm,cryptocell-713-trngC* cctrng
 alias of:N*T*Carm,cryptocell-703-trng cctrng
@@ -1419,6 +1427,8 @@ alias of:N*T*Cqcom,wcn6450 icnss2
 alias of:N*T*Cqcom,wcn6450C* icnss2
 alias of:N*T*Cqcom,wcn7750 icnss2
 alias of:N*T*Cqcom,wcn7750C* icnss2
+alias of:N*T*Cqcom,icnss-direct-link icnss2
+alias of:N*T*Cqcom,icnss-direct-linkC* icnss2
 alias tls tls
 alias tcp-ulp-tls tls
 alias usb:v*p*d*dc*dsc*dp*ic02isc0Cip07in* cdc_eem
